@@ -30,7 +30,7 @@ const MenuForm: React.FC = () => {
 
         <button>Prosseguir</button>
 
-        <span className="terms">Esa pagina esá sujeito a politica de privacidade e ao termos de serviços</span>
+        <span className="terms">Esta página é protegida pelo reCAPTCHA e está sujeita à Política de privacidade e aos Termos de serviço do Google.</span>
       </Form>
     </Container>
   );

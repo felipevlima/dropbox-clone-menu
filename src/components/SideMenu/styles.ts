@@ -17,7 +17,7 @@ export const Container = styled.div`
   }
 
   @media (min-width: 1440px) {
-    width: calc(480px - ((100vw - 1440px) / 2));
+    width: calc(480px - ((100vw - 1440px) / 6));
   }
 
   transform: translateX(100%);
