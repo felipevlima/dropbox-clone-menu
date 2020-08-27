@@ -19,7 +19,7 @@ const MenuForm: React.FC = () => {
         </button>
       </Navigation>
 
-      <Form name="registro" method="POST" data-netlify="true">
+      <Form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
         <span className="title">Registre-se</span>
         <span className="subtitle">preenchao formulario</span>
 
