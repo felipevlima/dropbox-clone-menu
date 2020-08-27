@@ -19,16 +19,16 @@ const MenuForm: React.FC = () => {
         </button>
       </Navigation>
 
-      <Form netlify>
+      <Form name="registro" method="POST" data-netlify="true">
         <span className="title">Registre-se</span>
         <span className="subtitle">preenchao formulario</span>
 
-        <input type="text" placeholder="Nome" />
-        <input type="text" placeholder="Sobrenome" />
-        <input type="email" placeholder="E-mail" />
-        <input type="password" placeholder="Senha" />
+        <input name="nome" type="text" placeholder="Nome" />
+        <input name="sobrenome" type="text" placeholder="Sobrenome" />
+        <input name="email" type="email" placeholder="E-mail" />
+        <input name="senha" type="password" placeholder="Senha" />
 
-        <button>Prosseguir</button>
+        <button type="submit">Prosseguir</button>
 
         <span className="terms">Esta página é protegida pelo reCAPTCHA e está sujeita à Política de privacidade e aos Termos de serviço do Google.</span>
       </Form>
