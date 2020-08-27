@@ -21,7 +21,7 @@ const MenuForm: React.FC = () => {
 
       <Form>
         <span className="title">Registre-se</span>
-        <span className="subtitle">preenchao formulario</span>
+        <span className="subtitle">preencha o formulário</span>
 
         <input name="nome" type="text" placeholder="Nome" />
         <input name="sobrenome" type="text" placeholder="Sobrenome" />
