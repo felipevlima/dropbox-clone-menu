@@ -28,7 +28,7 @@ const MenuForm: React.FC = () => {
         <input name="email" type="email" placeholder="E-mail" />
         <input name="senha" type="password" placeholder="Senha" />
 
-        <button type="submit">Prosseguir</button>
+        <button>Prosseguir</button>
 
         <span className="terms">Esta página é protegida pelo reCAPTCHA e está sujeita à Política de privacidade e aos Termos de serviço do Google.</span>
       </Form>
